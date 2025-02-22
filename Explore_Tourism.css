@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-container{
+    background-image: url("tourism.jpg");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: 0%;
+    
+}
+.home-heading{
+    color: rgb(0, 4, 8);
+    font-weight: 700;
+    font-style: italic;
+    font-family: sans-serif;
+    margin-top: 70px;
+}
+.home-des{
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.favourite-places-bg-container {
+    background-image: url("https://img.freepik.com/free-photo/beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.jpg?t=st=1735650741~exp=1735654341~hmac=c5038102a2845828d2264399d7e9218468c4b4a6815dd01221d2528fb65dbc4f&w=996");
+    height: 100vh;
+    background-size: cover;
+    padding: 24px;
+  }
+  .favourite-places-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .favourite-place-card-container {
+    background-color: rgb(241, 251, 209);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+    
+  }
+  .favourite-place-card-heading {
+    color: #100e6d;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .favourite-place-card-description {
+    color: #02000b;
+    font-family: "Roboto";
+    font-size: 13px;
+    text-decoration: none;
+    font-style: italic;
+  }
+  .favourite-place-card-image {
+    width: 80px;
+    height: 100px;
+  }
+  .favourite-place-card-text-container {
+    margin-right: 30px;
+  }
+  .detailed-view-bg-container {
+    background-image: url("https://img.freepik.com/free-photo/high-angle-shot-waterfall-forest-karuizawa-tokyo-japan_181624-20363.jpg?t=st=1735651298~exp=1735654898~hmac=1854fe245bd8ca7b44c91a3a7bdaeec0ad82f83d8faaa88ae9e591100034183e&w=996");
+    height: 100vh;
+    background-size: cover;
+    background-position: 0%;
+  }
+  .detailed-view-heading {
+    color: rgb(246, 250, 246);
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  .detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+  }
+  .detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 15px;
+  }
+  .detailed-view-card-text-container {
+    padding: 16px;
+  }
+  .mysore-container{
+    margin-top: 400px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .varanasi-container{
+    margin-top: 400px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .golden-container{
+    margin-top: 500px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .taj-container{
+    margin-top: 100px;
+    padding: 0;
+    box-sizing: border-box;
+  }
