@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.category-section{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    
+}
+.banner-section{
+    width: 100%;
+    height: 300px;
+
+}
+.arrival-section{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    
+}
+.discount-section{
+    width: 100%;
+    height: 150px;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    
+}
+.category-section ul li{
+    list-style: none;
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px double black;
+
+    
+}
+.category-section ul li img{
+    width: 100%; 
+}
+
+.category-section ul li:hover{
+    transform: scale(1.2);
+}
+.category-section span{
+    position: absolute;
+    top: 120px;
+}
+.arrival-section ul li{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-flex;
+    margin-left: 20px;
+}
+.sub-section ul li img{
+    width: 100%;
+    margin-left: 10px;
+    
+    height: 100%;
+
+}
+.sub-section{
+    border: 1px solid black;
+    position: absolute;
+}
+.sub-section ul{
+    position: relative;
+}
+.sub-section span{
+    position: absolute;
+    top: 240px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.sub-section ul li:hover{
+    transform: scaleX(1.5);
+}
+
+.banner2{
+    position: relative;
+    top: 350px;
+}
+.discount-section{
+    position: relative;
+    top: 350px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.discount-section img{
+    width: 200px;
+    height: 200px;
+    margin-left: 5px;
+}
+.footer{
+    position: relative;
+    top: 750px;
+    width: 100%;
+    min-width: 100vw;
+}
+.navbar{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.company h2{
+    margin-left: 20px;
+}
+.products ul li{
+    display: inline-flex;
+    list-style: none;
+    margin-right: 20px;
+}
